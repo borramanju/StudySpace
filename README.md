@@ -12,8 +12,6 @@ A comprehensive AI-powered collaborative workspace designed specifically for stu
 4. [Setup Instructions](#setup-instructions)
 5. [Understanding the Code](#understanding-the-code)
 6. [How Each Feature Works](#how-each-feature-works)
-7. [Extending the Application](#extending-the-application)
-8. [Production Deployment](#production-deployment)
 
 ---
 
