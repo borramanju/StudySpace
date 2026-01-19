@@ -4,7 +4,7 @@ A comprehensive AI-powered collaborative workspace designed specifically for stu
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 1. [Features Overview](#features-overview)
 2. [Project Architecture](#project-architecture)
@@ -17,47 +17,47 @@ A comprehensive AI-powered collaborative workspace designed specifically for stu
 
 ---
 
-## 🌟 Features Overview
+##  Features Overview
 
-### ✅ Core Collaboration Features
+###  Core Collaboration Features
 - **Multi-user workspace** with role-based access (Admin, Editor, Viewer)
 - **Real-time collaboration** on documents/projects (simulated)
 - **Shared dashboards** for team visibility
 - **Commenting, mentions, and discussion threads**
 - **Version history** and change tracking
 
-### 🤖 AI-Powered Features
+###  AI-Powered Features
 - **AI-assisted content generation** (text, summaries, ideas)
 - **Context-aware AI chat** within the workspace
 - **Automatic document summarization**
 - **Smart suggestions** for tasks, edits, or improvements
 - **Natural language search** across workspace content
 
-### 📋 Project & Task Management
+###  Project & Task Management
 - **Task creation, assignment, and tracking**
 - **AI-based task prioritization** or recommendations
 - **Kanban / list-style task boards**
 - **Deadlines, reminders, and status tracking**
 
-### 📚 Knowledge Management
+###  Knowledge Management
 - **Centralized knowledge base** / document repository
 - **AI-powered semantic search**
 - **Tagging and categorization** of files
 - **Auto-linking** related documents or tasks
 
-### 💬 Communication
+###  Communication
 - **Built-in team chat** or discussion channels
 - **File uploads and shared assets**
 - **Notification system** (in-app)
 
-### 🔒 Security & Access Control
+###  Security & Access Control
 - **Authentication and authorization**
 - **Workspace-level permissions**
 - **Activity logs**
 
 ---
 
-## 🏗️ Project Architecture
+##  Project Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -102,7 +102,7 @@ A comprehensive AI-powered collaborative workspace designed specifically for stu
 
 ---
 
-## 📁 File Structure
+##  File Structure
 
 ```
 ai-workspace/
@@ -135,7 +135,7 @@ ai-workspace/
 
 ---
 
-## 🚀 Setup Instructions
+##  Setup Instructions
 
 ### Prerequisites
 - **Node.js** (v16 or higher) - [Download](https://nodejs.org/)
@@ -180,7 +180,7 @@ Use these credentials to test different roles:
 
 ---
 
-## 📖 Understanding the Code
+##  Understanding the Code
 
 ### Key Concepts Explained
 
@@ -235,9 +235,9 @@ useEffect(() => {
 
 ---
 
-## ⚙️ How Each Feature Works
+##  How Each Feature Works
 
-### 🔐 Authentication System
+###  Authentication System
 **File:** `contexts/AuthContext.jsx`
 
 ```
@@ -251,7 +251,7 @@ App shows authenticated UI
 - `logout()` - Clears user session
 - `isAdmin()`, `canEdit()` - Permission checks
 
-### 📁 Project Management
+###  Project Management
 **File:** `contexts/WorkspaceContext.jsx` + `pages/Projects.jsx`
 
 ```
@@ -265,7 +265,7 @@ click to view details
 - `updateProject(id, updates)` - Modifies project
 - `deleteProject(id)` - Removes project and associated data
 
-### 📄 Document System
+###  Document System
 **File:** `pages/Documents.jsx`
 
 ```
@@ -279,7 +279,7 @@ add comments
 - `updateDocument(id, updates)` - Saves changes with version increment
 - `addDocumentComment(docId, comment)` - Adds comment
 
-### ✅ Task Management
+###  Task Management
 **File:** `pages/Tasks.jsx`
 
 ```
@@ -293,7 +293,7 @@ mark subtasks complete
 - `updateTask(id, updates)` - Updates task properties
 - `updateSubtask(taskId, subtaskId, completed)` - Toggles subtask
 
-### 🤖 AI Features
+###  AI Features
 **File:** `contexts/AIContext.jsx`
 
 ```
@@ -308,7 +308,7 @@ displayed in chat
 - `getSmartSuggestions(context, data)` - Provides suggestions
 - `semanticSearch(query)` - AI-powered search
 
-### 💬 Team Chat
+###  Team Chat
 **File:** `pages/Chat.jsx`
 
 ```
@@ -394,7 +394,7 @@ const updateDocument = (docId, changes) => {
 
 ---
 
-## 🌐 Production Deployment
+##  Production Deployment
 
 ### Build for Production
 ```bash
@@ -431,7 +431,7 @@ REACT_APP_AI_ENDPOINT=https://your-ai-service.com
 
 ---
 
-## 🎯 Next Steps for Learning
+##  Next Steps for Learning
 
 1. **Add a backend** with Node.js/Express or Python/FastAPI
 2. **Connect a database** (PostgreSQL, MongoDB)
@@ -441,11 +441,3 @@ REACT_APP_AI_ENDPOINT=https://your-ai-service.com
 
 ---
 
-## 📞 Support
-
-If you have questions:
-1. Check the code comments (every file is heavily documented)
-2. Search for React documentation
-3. Look up specific libraries (React Router, etc.)
-
-Good luck with your AI workspace! 🚀
